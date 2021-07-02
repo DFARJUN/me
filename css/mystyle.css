@@ -377,7 +377,15 @@ color: var(--primary);
 
     .masthead-subheading span {
         line-height: 2rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .page-section {

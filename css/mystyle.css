@@ -380,6 +380,10 @@ color: var(--primary);
         font-size: 1rem;
     }
 
+    .masthead .masthead-avatar {
+        width: 11rem;
+    }
+
 
 
     .page-section {

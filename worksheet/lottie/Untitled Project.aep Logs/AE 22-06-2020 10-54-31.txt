@@ -1,0 +1,8 @@
+  22/06/2020 10:54:31: Starting composition “Untitled-1”.
+
+  Output To: C:\Users\Dfarj\Desktop\export\Untitled-1\Untitled-1_[#####].png    22/06/2020 10:54:53: Finished composition “Untitled-1”.
+
+
+  Total Time Elapsed: 22 Seconds
+Log closed on 22/06/2020 at 10:54:57
+

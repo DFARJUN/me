@@ -24,6 +24,49 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/mystyle.css" rel="stylesheet" />
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/scrolloverflow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+
+    <script>
+        /*** Call function after page has loaded ***/
+        $(document).ready(function () {
+
+            /*** Call FullPage.js option ***/
+            pageScroll();
+
+            new WOW().init();
+            $(window).resize(function () {
+                pageScroll();
+            });
+        });
+
+        /*** FullPage.js Function ***/
+        function pageScroll() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#06C', '#C06', '#930', '#06C'],
+                anchors: ['aa', 'bb', 'cc', 'dd'],
+                menu: '.menu',
+                navigation: true,
+                scrollOverflow: true,
+                scrollBar: true,
+                fixedElements: '.header',
+                paddingTop: '3em',
+                slidesNavigation: true,
+                paddingBottom: '1em'
+            });
+        }
+    </script>
+
+
+
+
 </head>
 <body id="page-top">
     <!-- Navigation-->

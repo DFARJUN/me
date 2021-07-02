@@ -19,52 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link id="removewow" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/mystyle.css" rel="stylesheet" />
-
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/vendors/scrolloverflow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
-
-    <script>
-        /*** Call function after page has loaded ***/
-        $(document).ready(function () {
-
-            /*** Call FullPage.js option ***/
-            pageScroll();
-
-            new WOW().init();
-            $(window).resize(function () {
-                pageScroll();
-            });
-        });
-
-        /*** FullPage.js Function ***/
-        function pageScroll() {
-            $('#fullpage').fullpage({
-                sectionsColor: ['#06C', '#C06', '#930', '#06C'],
-                anchors: ['aa', 'bb', 'cc', 'dd'],
-                menu: '.menu',
-                navigation: true,
-                scrollOverflow: true,
-                scrollBar: true,
-                fixedElements: '.header',
-                paddingTop: '3em',
-                slidesNavigation: true,
-                paddingBottom: '1em'
-            });
-        }
-    </script>
-
-
 
 
 </head>

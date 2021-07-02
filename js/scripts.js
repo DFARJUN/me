@@ -69,6 +69,9 @@
 
 $(document).ready(function () {
     new WOW().init();
+    if (window.innerWidth < 700) {
+        document.getElementById("removewow").remove();
+    }
 });
 
 

@@ -67,9 +67,17 @@
   
   })(jQuery); // End of use strict
 
+if (window.innerWidth < 700) {
+    document.getElementById("removewow").remove();
+    document.getElementById("removewow2").remove();
+    document.getElementById("removewow3").remove();
+}
+
 $(document).ready(function () {  
     if (window.innerWidth < 700) {
         document.getElementById("removewow").remove();
+        document.getElementById("removewow2").remove();
+        document.getElementById("removewow3").remove();
     } else {
         new WOW().init();
     }

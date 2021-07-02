@@ -427,7 +427,7 @@ color: var(--primary);
     }
 
     ul.timeline:before {
-        right: 40px;
+        LEFT: -19px !important;
     }
 
     ul.timeline > li {
@@ -436,16 +436,17 @@ color: var(--primary);
         width: 100%;
         float: right;
         clear: right;
+        LEFT: 10PX;
     }
 
         ul.timeline > li > .timeline-panel {
             width: calc(100% - 65px);
-            width: -moz-calc(100% - 65px);
-            width: -webkit-calc(100% - 65px);
+            width: -moz-calc(100% - 32px);
+            width: -webkit-calc(100% - 32px);
         }
 
         ul.timeline > li > .timeline-badge {
-            right: 32px;
+            LEFT: -46PX;
             margin-right: 0;
             top: 16px;
         }
@@ -461,41 +462,40 @@ color: var(--primary);
         float:left
     }
         .timeline > li.timeline-inverted > .timeline-panel:after {
-            border-right-width: 0;
-            border-left-width: 14px;
-            right: -14px;
-            left: auto;
+            border-LEFT-width: 0;
+            border-RIGHT-width: 14px;
+            LEFT: -13px;
         }
         .timeline > li.timeline-inverted > .timeline-panel:before {
-            border-right-width: 0;
-            border-left-width: 15px;
-            right: -15px;
-            left: unset;
+            border-LEFT-width: 0;
+            border-RIGHT-width: 15px;
+            LEFT: -15px;
         }
 
     ul.timeline > li > .timeline-panel:before {
-        border-right-width: 0;
-        border-left-width: 15px;
-        right: -15px;
-        left: auto;
+        border-LEFT-width: 0;
+        border-RIGHT-width: 15px;
+        LEFT: -15px;
+        RIGHT: auto;
     }
 
-            ul.timeline > li > .timeline-panel:after {
-                border-right-width: 0;
-                border-left-width: 14px;
-                right: -14px;
-                left: auto;
-            }
+    ul.timeline > li > .timeline-panel:after {
+        border-LEFT-width: 0;
+        border-RIGHT-width: 14px;
+        LEFT: -13px !IMPORTANT;
+        RIGHT: UNSET;
+    }
 
     .timeline > li.timeline-inverted {
         float: left;
         clear: left;
         margin-top: 30px;
         margin-bottom: 30px;
+        LEFT: 10PX;
     }
 
         .timeline > li.timeline-inverted > .timeline-badge {
-            right: 32px;
+            LEFT: -46px;
         }
 
 

@@ -67,10 +67,11 @@
   
   })(jQuery); // End of use strict
 
-$(document).ready(function () {
-    new WOW().init();
+$(document).ready(function () {  
     if (window.innerWidth < 700) {
         document.getElementById("removewow").remove();
+    } else {
+        new WOW().init();
     }
 });
 

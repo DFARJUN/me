@@ -10298,3 +10298,7 @@ p{
     margin-bottom:2rem;
 }
 
+.spacespan {
+    display: block;
+    height: 0.5rem;
+}
